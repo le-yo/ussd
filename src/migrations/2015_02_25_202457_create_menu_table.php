@@ -15,8 +15,6 @@ class CreateMenuTable extends Migration {
 		Schema::create('menu', function ($table) {
 			$table->increments('id');
 			$table->string('description',45);
-			$table->integer('_order')->unsigned();
-			$table->integer('linked_status')->default(0);
 			$table->timestamps();
 			$table->softDeletes();
 		});
