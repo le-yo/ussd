@@ -1,0 +1,25 @@
+{
+    "name": "leyo/ussd",
+    "description": "",
+    "authors": [
+        {
+            "name": "le-yo",
+            "email": "leo@devs.mobi"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/commands"
+        ],
+        "psr-0": {
+            "Leyo\\Ussd\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
