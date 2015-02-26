@@ -14,8 +14,8 @@
     "autoload": {
         "classmap": [
             "src/migrations",
-            "src/controllers",
-            "src/commands"
+            "src/controllers"
+//            "src/commands"
         ],
         "psr-0": {
             "Leyo\\Ussd\\": "src/"
